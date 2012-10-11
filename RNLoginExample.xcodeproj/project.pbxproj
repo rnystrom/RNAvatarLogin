@@ -1,0 +1,300 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		86AA39C016274CFB00AF2D3E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86AA39BF16274CFB00AF2D3E /* UIKit.framework */; };
+		86AA39C216274CFB00AF2D3E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86AA39C116274CFB00AF2D3E /* Foundation.framework */; };
+		86AA39C416274CFB00AF2D3E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86AA39C316274CFB00AF2D3E /* CoreGraphics.framework */; };
+		86AA39CA16274CFB00AF2D3E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 86AA39C816274CFB00AF2D3E /* InfoPlist.strings */; };
+		86AA39CC16274CFB00AF2D3E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 86AA39CB16274CFB00AF2D3E /* main.m */; };
+		86AA39D016274CFB00AF2D3E /* RNAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 86AA39CF16274CFB00AF2D3E /* RNAppDelegate.m */; };
+		86AA39D216274CFB00AF2D3E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 86AA39D116274CFB00AF2D3E /* Default.png */; };
+		86AA39D416274CFB00AF2D3E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 86AA39D316274CFB00AF2D3E /* Default@2x.png */; };
+		86AA39D616274CFB00AF2D3E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 86AA39D516274CFB00AF2D3E /* Default-568h@2x.png */; };
+		86AA39D916274CFB00AF2D3E /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86AA39D716274CFB00AF2D3E /* MainStoryboard.storyboard */; };
+		86AA39DC16274CFB00AF2D3E /* RNViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86AA39DB16274CFB00AF2D3E /* RNViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		86AA39BB16274CFB00AF2D3E /* RNLoginExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RNLoginExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		86AA39BF16274CFB00AF2D3E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		86AA39C116274CFB00AF2D3E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		86AA39C316274CFB00AF2D3E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		86AA39C716274CFB00AF2D3E /* RNLoginExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RNLoginExample-Info.plist"; sourceTree = "<group>"; };
+		86AA39C916274CFB00AF2D3E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		86AA39CB16274CFB00AF2D3E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		86AA39CD16274CFB00AF2D3E /* RNLoginExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RNLoginExample-Prefix.pch"; sourceTree = "<group>"; };
+		86AA39CE16274CFB00AF2D3E /* RNAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNAppDelegate.h; sourceTree = "<group>"; };
+		86AA39CF16274CFB00AF2D3E /* RNAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNAppDelegate.m; sourceTree = "<group>"; };
+		86AA39D116274CFB00AF2D3E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		86AA39D316274CFB00AF2D3E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		86AA39D516274CFB00AF2D3E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		86AA39D816274CFB00AF2D3E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		86AA39DA16274CFB00AF2D3E /* RNViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNViewController.h; sourceTree = "<group>"; };
+		86AA39DB16274CFB00AF2D3E /* RNViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		86AA39B816274CFB00AF2D3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86AA39C016274CFB00AF2D3E /* UIKit.framework in Frameworks */,
+				86AA39C216274CFB00AF2D3E /* Foundation.framework in Frameworks */,
+				86AA39C416274CFB00AF2D3E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		86AA39B016274CFB00AF2D3E = {
+			isa = PBXGroup;
+			children = (
+				86AA39C516274CFB00AF2D3E /* RNLoginExample */,
+				86AA39BE16274CFB00AF2D3E /* Frameworks */,
+				86AA39BC16274CFB00AF2D3E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		86AA39BC16274CFB00AF2D3E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				86AA39BB16274CFB00AF2D3E /* RNLoginExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		86AA39BE16274CFB00AF2D3E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				86AA39BF16274CFB00AF2D3E /* UIKit.framework */,
+				86AA39C116274CFB00AF2D3E /* Foundation.framework */,
+				86AA39C316274CFB00AF2D3E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		86AA39C516274CFB00AF2D3E /* RNLoginExample */ = {
+			isa = PBXGroup;
+			children = (
+				86AA39CE16274CFB00AF2D3E /* RNAppDelegate.h */,
+				86AA39CF16274CFB00AF2D3E /* RNAppDelegate.m */,
+				86AA39D716274CFB00AF2D3E /* MainStoryboard.storyboard */,
+				86AA39DA16274CFB00AF2D3E /* RNViewController.h */,
+				86AA39DB16274CFB00AF2D3E /* RNViewController.m */,
+				86AA39C616274CFB00AF2D3E /* Supporting Files */,
+			);
+			path = RNLoginExample;
+			sourceTree = "<group>";
+		};
+		86AA39C616274CFB00AF2D3E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				86AA39C716274CFB00AF2D3E /* RNLoginExample-Info.plist */,
+				86AA39C816274CFB00AF2D3E /* InfoPlist.strings */,
+				86AA39CB16274CFB00AF2D3E /* main.m */,
+				86AA39CD16274CFB00AF2D3E /* RNLoginExample-Prefix.pch */,
+				86AA39D116274CFB00AF2D3E /* Default.png */,
+				86AA39D316274CFB00AF2D3E /* Default@2x.png */,
+				86AA39D516274CFB00AF2D3E /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		86AA39BA16274CFB00AF2D3E /* RNLoginExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86AA39DF16274CFB00AF2D3E /* Build configuration list for PBXNativeTarget "RNLoginExample" */;
+			buildPhases = (
+				86AA39B716274CFB00AF2D3E /* Sources */,
+				86AA39B816274CFB00AF2D3E /* Frameworks */,
+				86AA39B916274CFB00AF2D3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RNLoginExample;
+			productName = RNLoginExample;
+			productReference = 86AA39BB16274CFB00AF2D3E /* RNLoginExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		86AA39B216274CFB00AF2D3E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RN;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Ryan Nystrom";
+			};
+			buildConfigurationList = 86AA39B516274CFB00AF2D3E /* Build configuration list for PBXProject "RNLoginExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 86AA39B016274CFB00AF2D3E;
+			productRefGroup = 86AA39BC16274CFB00AF2D3E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				86AA39BA16274CFB00AF2D3E /* RNLoginExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		86AA39B916274CFB00AF2D3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86AA39CA16274CFB00AF2D3E /* InfoPlist.strings in Resources */,
+				86AA39D216274CFB00AF2D3E /* Default.png in Resources */,
+				86AA39D416274CFB00AF2D3E /* Default@2x.png in Resources */,
+				86AA39D616274CFB00AF2D3E /* Default-568h@2x.png in Resources */,
+				86AA39D916274CFB00AF2D3E /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		86AA39B716274CFB00AF2D3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86AA39CC16274CFB00AF2D3E /* main.m in Sources */,
+				86AA39D016274CFB00AF2D3E /* RNAppDelegate.m in Sources */,
+				86AA39DC16274CFB00AF2D3E /* RNViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		86AA39C816274CFB00AF2D3E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				86AA39C916274CFB00AF2D3E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		86AA39D716274CFB00AF2D3E /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				86AA39D816274CFB00AF2D3E /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		86AA39DD16274CFB00AF2D3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		86AA39DE16274CFB00AF2D3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		86AA39E016274CFB00AF2D3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RNLoginExample/RNLoginExample-Prefix.pch";
+				INFOPLIST_FILE = "RNLoginExample/RNLoginExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		86AA39E116274CFB00AF2D3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RNLoginExample/RNLoginExample-Prefix.pch";
+				INFOPLIST_FILE = "RNLoginExample/RNLoginExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		86AA39B516274CFB00AF2D3E /* Build configuration list for PBXProject "RNLoginExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86AA39DD16274CFB00AF2D3E /* Debug */,
+				86AA39DE16274CFB00AF2D3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86AA39DF16274CFB00AF2D3E /* Build configuration list for PBXNativeTarget "RNLoginExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86AA39E016274CFB00AF2D3E /* Debug */,
+				86AA39E116274CFB00AF2D3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 86AA39B216274CFB00AF2D3E /* Project object */;
+}
