@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		863A58731628950F00A7494C /* RNAvatarLogin.m in Sources */ = {isa = PBXBuildFile; fileRef = 863A58721628950F00A7494C /* RNAvatarLogin.m */; };
 		86AA39C016274CFB00AF2D3E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86AA39BF16274CFB00AF2D3E /* UIKit.framework */; };
 		86AA39C216274CFB00AF2D3E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86AA39C116274CFB00AF2D3E /* Foundation.framework */; };
 		86AA39C416274CFB00AF2D3E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86AA39C316274CFB00AF2D3E /* CoreGraphics.framework */; };
@@ -18,9 +19,14 @@
 		86AA39D616274CFB00AF2D3E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 86AA39D516274CFB00AF2D3E /* Default-568h@2x.png */; };
 		86AA39D916274CFB00AF2D3E /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86AA39D716274CFB00AF2D3E /* MainStoryboard.storyboard */; };
 		86AA39DC16274CFB00AF2D3E /* RNViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86AA39DB16274CFB00AF2D3E /* RNViewController.m */; };
+		86AA39E41627512B00AF2D3E /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 86AA39E21627512B00AF2D3E /* logo.png */; };
+		86AA39E51627512B00AF2D3E /* logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 86AA39E31627512B00AF2D3E /* logo@2x.png */; };
+		86AA39F1162752B200AF2D3E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86AA39F0162752B200AF2D3E /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		863A58711628950F00A7494C /* RNAvatarLogin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNAvatarLogin.h; sourceTree = SOURCE_ROOT; };
+		863A58721628950F00A7494C /* RNAvatarLogin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNAvatarLogin.m; sourceTree = SOURCE_ROOT; };
 		86AA39BB16274CFB00AF2D3E /* RNLoginExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RNLoginExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		86AA39BF16274CFB00AF2D3E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		86AA39C116274CFB00AF2D3E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -37,6 +43,9 @@
 		86AA39D816274CFB00AF2D3E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		86AA39DA16274CFB00AF2D3E /* RNViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNViewController.h; sourceTree = "<group>"; };
 		86AA39DB16274CFB00AF2D3E /* RNViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNViewController.m; sourceTree = "<group>"; };
+		86AA39E21627512B00AF2D3E /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		86AA39E31627512B00AF2D3E /* logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo@2x.png"; sourceTree = "<group>"; };
+		86AA39F0162752B200AF2D3E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86AA39F1162752B200AF2D3E /* QuartzCore.framework in Frameworks */,
 				86AA39C016274CFB00AF2D3E /* UIKit.framework in Frameworks */,
 				86AA39C216274CFB00AF2D3E /* Foundation.framework in Frameworks */,
 				86AA39C416274CFB00AF2D3E /* CoreGraphics.framework in Frameworks */,
@@ -56,9 +66,13 @@
 		86AA39B016274CFB00AF2D3E = {
 			isa = PBXGroup;
 			children = (
-				86AA39C516274CFB00AF2D3E /* RNLoginExample */,
+				863A58711628950F00A7494C /* RNAvatarLogin.h */,
+				863A58721628950F00A7494C /* RNAvatarLogin.m */,
+				86AA39C516274CFB00AF2D3E /* Classes */,
 				86AA39BE16274CFB00AF2D3E /* Frameworks */,
+				86AA39EF1627528700AF2D3E /* Other Sources */,
 				86AA39BC16274CFB00AF2D3E /* Products */,
+				86AA39ED1627527A00AF2D3E /* Resources */,
 			);
 			sourceTree = "<group>";
 		};
@@ -73,6 +87,7 @@
 		86AA39BE16274CFB00AF2D3E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				86AA39F0162752B200AF2D3E /* QuartzCore.framework */,
 				86AA39BF16274CFB00AF2D3E /* UIKit.framework */,
 				86AA39C116274CFB00AF2D3E /* Foundation.framework */,
 				86AA39C316274CFB00AF2D3E /* CoreGraphics.framework */,
@@ -80,31 +95,50 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		86AA39C516274CFB00AF2D3E /* RNLoginExample */ = {
+		86AA39C516274CFB00AF2D3E /* Classes */ = {
 			isa = PBXGroup;
 			children = (
 				86AA39CE16274CFB00AF2D3E /* RNAppDelegate.h */,
 				86AA39CF16274CFB00AF2D3E /* RNAppDelegate.m */,
-				86AA39D716274CFB00AF2D3E /* MainStoryboard.storyboard */,
 				86AA39DA16274CFB00AF2D3E /* RNViewController.h */,
 				86AA39DB16274CFB00AF2D3E /* RNViewController.m */,
-				86AA39C616274CFB00AF2D3E /* Supporting Files */,
 			);
+			name = Classes;
 			path = RNLoginExample;
 			sourceTree = "<group>";
 		};
-		86AA39C616274CFB00AF2D3E /* Supporting Files */ = {
+		86AA39ED1627527A00AF2D3E /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				86AA39EE1627528000AF2D3E /* Graphics */,
+				86AA39D716274CFB00AF2D3E /* MainStoryboard.storyboard */,
 				86AA39C716274CFB00AF2D3E /* RNLoginExample-Info.plist */,
 				86AA39C816274CFB00AF2D3E /* InfoPlist.strings */,
-				86AA39CB16274CFB00AF2D3E /* main.m */,
-				86AA39CD16274CFB00AF2D3E /* RNLoginExample-Prefix.pch */,
+			);
+			name = Resources;
+			path = RNLoginExample;
+			sourceTree = "<group>";
+		};
+		86AA39EE1627528000AF2D3E /* Graphics */ = {
+			isa = PBXGroup;
+			children = (
 				86AA39D116274CFB00AF2D3E /* Default.png */,
 				86AA39D316274CFB00AF2D3E /* Default@2x.png */,
 				86AA39D516274CFB00AF2D3E /* Default-568h@2x.png */,
+				86AA39E21627512B00AF2D3E /* logo.png */,
+				86AA39E31627512B00AF2D3E /* logo@2x.png */,
 			);
-			name = "Supporting Files";
+			name = Graphics;
+			sourceTree = "<group>";
+		};
+		86AA39EF1627528700AF2D3E /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				86AA39CB16274CFB00AF2D3E /* main.m */,
+				86AA39CD16274CFB00AF2D3E /* RNLoginExample-Prefix.pch */,
+			);
+			name = "Other Sources";
+			path = RNLoginExample;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,6 +198,8 @@
 				86AA39D416274CFB00AF2D3E /* Default@2x.png in Resources */,
 				86AA39D616274CFB00AF2D3E /* Default-568h@2x.png in Resources */,
 				86AA39D916274CFB00AF2D3E /* MainStoryboard.storyboard in Resources */,
+				86AA39E41627512B00AF2D3E /* logo.png in Resources */,
+				86AA39E51627512B00AF2D3E /* logo@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,6 +213,7 @@
 				86AA39CC16274CFB00AF2D3E /* main.m in Sources */,
 				86AA39D016274CFB00AF2D3E /* RNAppDelegate.m in Sources */,
 				86AA39DC16274CFB00AF2D3E /* RNViewController.m in Sources */,
+				863A58731628950F00A7494C /* RNAvatarLogin.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,6 +330,7 @@
 				86AA39E116274CFB00AF2D3E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
