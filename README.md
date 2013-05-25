@@ -54,7 +54,7 @@ I've tried my best to provide some simple configuration settings to aid in anima
 
 ## Contact
 
-* [@nystrorm](https://twitter.com/nystrorm) on Twitter
+* [@nystrorm](https://twitter.com/_ryannystrom) on Twitter
 * [@rnystrom](https://github.com/rnystrom) on Github
 * <a href="mailTo:rnystrom@whoisryannystrom.com">rnystrom [at] whoisryannystrom [dot] com</a>
 
